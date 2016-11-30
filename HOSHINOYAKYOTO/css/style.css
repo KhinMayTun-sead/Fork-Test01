@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+.cFix:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+
+body {
+  font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+.content {
+  width: 1225px;
+  margin: 0 auto;
+}
+
+.ctr {
+  width: 945px;
+  margin: 0 auto;
+}
+
+.content p {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.mg_btm_100 {
+  margin-bottom: 100px;
+}
+
+.mg_btm_50 {
+  margin-bottom: 50px;
+}
+
+.mg_top_25 {
+  margin-top: -28px;
+}
+
+.mg_rgt_20 {
+  margin-right: 35px;
+}
+
+.img_center {
+  display: block;
+  margin: 0 auto;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 54px;
+}
+
+.h3_s02 {
+  text-align: center;
+  font-size: 34px;
+}
+
+.para_center {
+  width: 665px;
+  margin: 0 auto;
+}
+
+/* for box01 */
+.box01 {
+  margin-top: 35px;
+}
+
+.box01 .img_box01,
+.box01 .img_box02 {
+  float: left;
+  width: 860px;
+}
+
+.box01 .txt_box01,
+.box01 .txt_box02 {
+  float: left;
+  width: 265px;
+}
+
+/* /for box01 */
+.h3_s01 {
+  font-size: 24px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.box02_s01 .s01_l,
+.box02_s03 .s03_r {
+  float: left;
+  width: 550px;
+}
+.box02_s01 .s01_r,
+.box02_s03 .s03_l {
+  float: left;
+  width: 355px;
+}
+
+.box02_s02 .s02_l,
+.box02_s04 .s04_r {
+  float: left;
+  width: 640px;
+}
+.box02_s02 .s02_r,
+.box02_s04 .s04_l {
+  float: left;
+  width: 270px;
+}
+
+/* kppw */
+.block_info01 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.b_in01_l {
+  float: left;
+  padding-top: 20px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.b_in01_l img {
+  float: left;
+}
+.b_in01_l a img:hover {
+  opacity: 0.5;
+}
+.b_inr{
+  float: left;
+  font-size: 24px;
+  margin-left: 25px;
+}
+.icn_arrow:before, .icn_arrow01:before {
+  content: ">";
+  background: #000;
+  width: 26px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  margin-right: 20px;
+  display: inline-block;
+  padding-top: 6px;
+  font-weight: bolder;
+  font-size: 13px;
+}
+.b_inr h5, .b_inr01 h5 {
+  margin-bottom: 0;
+}
+
+.b_in01_l a, .b_in01_r a {
+  text-decoration: none;
+  color: #0c000c;
+}
+.b_inr p, .b_inr01 p {
+  font-size: 14px;
+  text-decoration: underline;
+  line-height: 1.6;
+}
+.b_inr span {
+  display: block;
+}
+.b_in01_r {
+  float: right;
+}
+/* end of block_info01 */
